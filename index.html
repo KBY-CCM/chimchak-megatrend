@@ -1,185 +1,39 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>메가트렌드 후보 · 2026-06-19</title>
+<title>침착맨 메가트렌드</title>
 <style>
- body{font-family:'Pretendard','Malgun Gothic',sans-serif;background:#f6f7f9;color:#1f2329;margin:0;padding:28px}
- .wrap{max-width:920px;margin:0 auto}
- h1{font-size:22px;margin:0 0 4px} .sub{color:#6b7280;font-size:13px;margin-bottom:18px}
- .cards{display:flex;gap:12px;margin-bottom:18px;flex-wrap:wrap}
- .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 18px;min-width:110px}
- .card .n{font-size:24px;font-weight:700} .card .l{color:#6b7280;font-size:12px}
- .item{display:flex;align-items:flex-start;gap:16px;background:#fff;border:1px solid #eceef1;
-        border-radius:14px;padding:16px 18px;margin-bottom:10px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
- .item.dim{opacity:.55}
- .score{flex:0 0 56px;text-align:center}
- .score .sc{font-size:24px;font-weight:800;color:#4f46e5;line-height:1}
- .scbar{height:5px;background:#eef0f2;border-radius:4px;margin-top:6px;overflow:hidden}
- .scfill{height:100%;background:linear-gradient(90deg,#4f8cff,#7c3aed)}
- .body{flex:1;min-width:0}
- .ttl{font-size:17px;font-weight:700;line-height:1.35;margin-bottom:5px}
- .idy{color:#444;font-size:13.5px;line-height:1.5;margin-bottom:7px}
- .meta{color:#8a9099;font-size:12px}
- .metrics{flex:0 0 230px;display:grid;grid-template-columns:repeat(5,1fr);gap:4px;text-align:center}
- .m .ml{font-size:10px;color:#9aa0a6} .m .mv{font-size:14px;font-weight:600;color:#5f6368;font-variant-numeric:tabular-nums}
- .m .mv.hi{color:#1f8f4e;font-weight:800}
- .bdg{color:#fff;padding:2px 8px;border-radius:20px;font-size:11px;white-space:nowrap;margin-left:6px;vertical-align:middle}
- .legend{color:#6b7280;font-size:12px;margin-top:16px;line-height:1.8}
- .stbox{background:linear-gradient(135deg,#1e1b4b,#312e81);color:#fff;border-radius:14px;padding:16px 20px;margin-bottom:18px}
- .sttitle{font-size:15px;font-weight:800;margin-bottom:10px} .stsub{font-size:11px;font-weight:400;color:#c7d2fe;margin-left:6px}
- .st{padding:6px 0;border-top:1px solid rgba(255,255,255,.12);font-size:13.5px}
- .st:first-of-type{border-top:none} .sth{margin-right:7px}
- .st b{font-weight:700} .std{color:#c7d2fe;margin-left:8px;font-size:12.5px}
- @media(max-width:680px){.metrics{flex-basis:100%;margin-top:8px} .item{flex-wrap:wrap}}
-</style></head><body><div class="wrap">
-<h1>🔥 메가트렌드 후보 — 2026-06-19</h1>
-<div class="sub">유튜브 급상승 · 네이버 뉴스/데이터랩 · 커뮤니티(theqoo·ruliweb·fmkorea·dogdrip·instiz) 교차분석 | 침착맨 운영</div>
-<div class="cards">
- <div class="card"><div class="n" style="color:#e8453c">1</div><div class="l">메가</div></div>
- <div class="card"><div class="n" style="color:#e08a1e">6</div><div class="l">준메가·관찰</div></div>
- <div class="card"><div class="n">7</div><div class="l">게이트 통과</div></div>
- <div class="card"><div class="n">9</div><div class="l">전체 후보</div></div>
+ html,body{margin:0;height:100%;font-family:'Pretendard','Malgun Gothic',sans-serif;background:#f6f7f9}
+ .nav{display:flex;align-items:center;gap:10px;padding:10px 16px;background:#1e1b4b;color:#fff;
+       position:sticky;top:0;z-index:10}
+ .nav .t{font-weight:800;font-size:15px;margin-right:auto}
+ .nav button,.nav select{font-size:13px;padding:6px 12px;border-radius:8px;border:none;cursor:pointer;
+       background:#4f46e5;color:#fff;font-weight:600}
+ .nav select{background:#fff;color:#1f2329}
+ .nav button:disabled{opacity:.35;cursor:default}
+ .cur{font-size:13px;color:#c7d2fe;min-width:92px;text-align:center}
+ iframe{width:100%;height:calc(100vh - 49px);border:none;background:#f6f7f9}
+</style></head><body>
+<div class="nav">
+ <span class="t">🔥 침착맨 메가트렌드</span>
+ <button id="prev">◀ 이전</button>
+ <span class="cur" id="cur"></span>
+ <button id="next">다음 ▶</button>
+ <select id="sel"><option value="2026-06-19">2026-06-19</option></select>
 </div>
-<div class="stbox"><div class="sttitle">🎮 인터넷방송 트렌드 <span class="stsub">치지직갤·arca · 침착맨 직속 씬</span></div><div class="st"><span class="sth">🔥</span><b>2026 자낳대(자본주의가 낳은 대회) 일정 및 결과</b><span class="std">자낳대26 진행 중 팀 구성, 일정, 경매 결과 등이 커뮤에서 실시간으로 핫하게 도는 중</span></div><div class="st"><span class="sth">🔥</span><b>카타르 월드컵 한국 국가대표팀 홍명보 감독 평가 분열</b><span class="std">남아공전 결과에 따라 홍명보 감독의 포메이션·교체 판단과 전술이 평가 갈리며 논쟁 중</span></div><div class="st"><span class="sth">•</span><b>7월 시행 전세계 최초 커뮤니티 검열 제도</b><span class="std">국내 커뮤에 도입되는 신규 검열 정책이 언론과 유저 사이에서 화제</span></div><div class="st"><span class="sth">•</span><b>유명 기자 신고글 삭제 및 계정 비공개 사태</b><span class="std">OSEN 정승우 기자 인스타 비공개 처리 및 신고글 삭제 사건으로 방송 씬 신뢰도 논란</span></div><div class="st"><span class="sth">•</span><b>메이플스토리 신규 지역·컨텐츠 업데이트 반응</b><span class="std">명조 신지역 컨셉과 신규 보스 콘텐츠에 대한 유저 반응이 엇갈리며 평가 분분</span></div></div>
-
-        <div class="item">
-          <div class="score"><div class="sc">72.1</div>
-            <div class="scbar"><div class="scfill" style="width:72%"></div></div></div>
-          <div class="body">
-            <div class="ttl">2026 월드컵 한국 vs 멕시코 (+김승규·남아공·멕시코전·북중미 외6)
-              <span class="bdg" style="background:#e8453c">메가</span><span class="bdg" style="background:#7c3aed">급등형⚡</span><span class="bdg" style="background:#1f8f4e">전국민</span></div>
-            <div class="idy">2026 북중미 월드컵 조별리그 한국의 멕시코 0-1 패배 및 관련 선수·감독 반응</div>
-            <div class="meta">🔥 5곳 · theqoo·ruliweb·fmkorea·dogdrip·치지직 &nbsp;|&nbsp; 출처: datalab · news · youtube</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv hi">71.4</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">79.5</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">72.4</div></div><div class="m"><div class="ml">급등</div><div class="mv hi">18.3x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">2/7</div></div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="score"><div class="sc">58.2</div>
-            <div class="scbar"><div class="scfill" style="width:58%"></div></div></div>
-          <div class="body">
-            <div class="ttl">코스피 지수
-              <span class="bdg" style="background:#e08a1e">준메가/관찰</span><span class="bdg" style="background:#1565c0">상시거대🏔</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">한국 종합주가지수 코스피가 9000선 아래로 하락한 증시 소식</div>
-            <div class="meta">🔥 1곳 · ruliweb &nbsp;|&nbsp; 출처: datalab · news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">14.3</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">86.4</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">100.0</div></div><div class="m"><div class="ml">급등</div><div class="mv">1.1x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">5/7</div></div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="score"><div class="sc">46.6</div>
-            <div class="scbar"><div class="scfill" style="width:46%"></div></div></div>
-          <div class="body">
-            <div class="ttl">트럼프 이란 관계 (+이란)
-              <span class="bdg" style="background:#e08a1e">준메가/관찰</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">트럼프와 이란 간의 국제 정치 및 전쟁 관련 뉴스</div>
-            <div class="meta">🔥 2곳 · ruliweb·fmkorea &nbsp;|&nbsp; 출처: datalab · news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">28.6</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">85.7</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">36.7</div></div><div class="m"><div class="ml">급등</div><div class="mv">0.6x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">3/7</div></div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="score"><div class="sc">43.7</div>
-            <div class="scbar"><div class="scfill" style="width:43%"></div></div></div>
-          <div class="body">
-            <div class="ttl">스파이더맨: 브랜드 뉴 데이 (+브랜드 뉴)
-              <span class="bdg" style="background:#e08a1e">준메가/관찰</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">마블 영화 신작 스파이더맨 브랜드 뉴 데이의 예고편 및 분석</div>
-            <div class="meta">🔥 커뮤니티 없음 &nbsp;|&nbsp; 출처: datalab · news · youtube</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">0.0</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">60.2</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">23.8</div></div><div class="m"><div class="ml">급등</div><div class="mv">1.7x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">2/7</div></div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="score"><div class="sc">41.3</div>
-            <div class="scbar"><div class="scfill" style="width:41%"></div></div></div>
-          <div class="body">
-            <div class="ttl">최저임금 논의
-              <span class="bdg" style="background:#e08a1e">준메가/관찰</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">한국의 최저임금 관련 정책 및 이슈</div>
-            <div class="meta">🔥 커뮤니티 없음 &nbsp;|&nbsp; 출처: datalab · news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">0.0</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">74.8</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">23.5</div></div><div class="m"><div class="ml">급등</div><div class="mv">1.6x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">5/7</div></div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="score"><div class="sc">39.5</div>
-            <div class="scbar"><div class="scfill" style="width:39%"></div></div></div>
-          <div class="body">
-            <div class="ttl">임지연·허남준 드라마 종영 (+임지연)
-              <span class="bdg" style="background:#e08a1e">준메가/관찰</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">tvN 드라마 &#x27;멋진 신세계&#x27;의 임지연·허남준 출연 종영</div>
-            <div class="meta">🔥 1곳 · theqoo &nbsp;|&nbsp; 출처: datalab · news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">14.3</div></div><div class="m"><div class="ml">전국민</div><div class="mv">44.8</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">44.1</div></div><div class="m"><div class="ml">급등</div><div class="mv">2.3x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">4/7</div></div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="score"><div class="sc">32.8</div>
-            <div class="scbar"><div class="scfill" style="width:32%"></div></div></div>
-          <div class="body">
-            <div class="ttl">덱스 유튜브 활동 중단
-              <span class="bdg" style="background:#e08a1e">준메가/관찰</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">유튜버 겸 배우 덱스가 배우 활동에 집중하기 위해 유튜브 채널을 잠정 중단한 소식</div>
-            <div class="meta">🔥 커뮤니티 없음 &nbsp;|&nbsp; 출처: datalab · news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">0.0</div></div><div class="m"><div class="ml">전국민</div><div class="mv">59.8</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">11.4</div></div><div class="m"><div class="ml">급등</div><div class="mv">0.6x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">7/7</div></div>
-          </div>
-        </div>
-        <div class="item dim">
-          <div class="score"><div class="sc">42.7</div>
-            <div class="scbar"><div class="scfill" style="width:42%"></div></div></div>
-          <div class="body">
-            <div class="ttl">이화영 술파티 위증 재판 (+구형·술파티·위증·이화 외3)
-              <span class="bdg" style="background:#9aa0a6">국소/탈락</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">더불어민주당 이화영 의원의 술파티 위증 혐의로 검찰이 징역 2년을 구형한 사건</div>
-            <div class="meta">🔥 1곳 · ruliweb &nbsp;|&nbsp; 출처: news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">14.3</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">95.0</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">6.8</div></div><div class="m"><div class="ml">급등</div><div class="mv">0.3x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">7/7</div></div>
-          </div>
-        </div>
-        <div class="item dim">
-          <div class="score"><div class="sc">37.6</div>
-            <div class="scbar"><div class="scfill" style="width:37%"></div></div></div>
-          <div class="body">
-            <div class="ttl">정청래 90도 인사
-              <span class="bdg" style="background:#9aa0a6">반짝</span><span class="bdg" style="background:#9aa0a6">보통</span><span class="bdg" style="background:#86b300">준전국민</span></div>
-            <div class="idy">더불어민주당 정청래 대표의 90도 폴더 인사와 이에 따른 당내 갈등</div>
-            <div class="meta">🔥 커뮤니티 없음 &nbsp;|&nbsp; 출처: datalab · news</div>
-          </div>
-          <div class="metrics">
-            <div class="m"><div class="ml">커뮤니티</div><div class="mv">0.0</div></div><div class="m"><div class="ml">전국민</div><div class="mv hi">69.9</div></div>
-            <div class="m"><div class="ml">볼륨</div><div class="mv">36.9</div></div><div class="m"><div class="ml">급등</div><div class="mv hi">3.5x</div></div>
-            <div class="m"><div class="ml">생존</div><div class="mv">1/7</div></div>
-          </div>
-        </div>
-<div class="legend">
- <b>소재명·설명</b>이 핵심 — 무엇이 왜 화제인지. 점수는 오른쪽 보조 지표.<br>
- <b>등급</b> 메가(가장 굵직)＞준메가·관찰. 흐린 카드 = 국소(한 곳)/반짝(하루짜리, 게이트 탈락).<br>
- <b>커뮤니티</b> = 여러 커뮤(theqoo·ruliweb·fmkorea·dogdrip·instiz) 동시 발현(인터넷 여론). <b>전국민</b> = 뉴스 보도량(온국민 공통분모).<br>
- <b>유형</b> ⚡급등=지금 솟는중 / 🏔상시거대=평소부터 큼. (+표기=같은 사건 조각 묶음)<br>
- <b>활용</b> 메가·준메가 + 커뮤/전국민 높음 = 이번 주 단독 기획 1순위. 급등형은 빨리, 상시거대는 아무 때나.
-</div></div></body></html>
+<iframe id="f"></iframe>
+<script>
+ const DATES = ["2026-06-19"];            // 최신순
+ let idx = 0;
+ function show(i){
+   idx = Math.max(0, Math.min(DATES.length-1, i));
+   document.getElementById('f').src = 'r/' + DATES[idx] + '.html';
+   document.getElementById('cur').textContent = DATES[idx];
+   document.getElementById('sel').value = DATES[idx];
+   document.getElementById('next').disabled = (idx<=0);          // 다음=더 최신
+   document.getElementById('prev').disabled = (idx>=DATES.length-1); // 이전=더 과거
+ }
+ document.getElementById('prev').onclick = ()=>show(idx+1);
+ document.getElementById('next').onclick = ()=>show(idx-1);
+ document.getElementById('sel').onchange = (e)=>show(DATES.indexOf(e.target.value));
+ show(0);
+</script></body></html>
