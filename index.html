@@ -18,11 +18,11 @@
  <button id="prev">◀ 이전</button>
  <span class="cur" id="cur"></span>
  <button id="next">다음 ▶</button>
- <select id="sel"><option value="2026-06-19">2026-06-19</option></select>
+ <select id="sel"><option value="2026-06-22">2026-06-22</option><option value="2026-06-19">2026-06-19</option></select>
 </div>
 <iframe id="f"></iframe>
 <script>
- const DATES = ["2026-06-19"];            // 최신순
+ const DATES = ["2026-06-22", "2026-06-19"];            // 최신순
  let idx = 0;
  function show(i){
    idx = Math.max(0, Math.min(DATES.length-1, i));
